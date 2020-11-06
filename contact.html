@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+      integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Guest House | GH</title>
+  </head>
+  <body>
+    <header>
+      <div id="navbar">
+        <h1 class="logo">GH</h1>
+        <ul>
+          <li><a class="current" href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+
+    <section id="contact-form">
+      <div class="container">
+        <h1 class="l-leading"><span class="text-primary">
+        Contact
+        </span> Us</h1>
+        <p>Please fill out the form below to contact us</p>
+        <form action="process.php">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name">
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email">
+          </div>
+
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea name="message" id="message"></textarea>
+          </div>
+          <button type="submit" class="btn">Submit</button>
+        </form>
+      </div>
+    </section> 
+
+    <section id="contact-info" class="bg-dark">
+      <div class="container">
+        <div class="box">
+          <i class="fas fa-hotel fa-3x"></i>
+          <h3>Location</h3>
+          <p>50 Main Street, Boston</p>
+        </div>
+
+        <div class="box">
+          <i class="fas fa-phone fa-3x"></i>
+          <h3>Phone Number</h3>
+          <p>+234 704 367 876</p>
+        </div>
+
+        <div class="box">
+          <i class="fas fa-envelope fa-3x"></i>
+          <h3>Email Address</h3>
+          <p>frontdesk@GT.co</p>
+        </div>
+      </div>
+    </section>
+
+    <footer id="main-footer">
+      <p>Guesthouse &copy; 2020, All righys reserved</p>
+    </footer>
+  </body>
+</html>
