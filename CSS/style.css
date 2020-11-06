@@ -17,6 +17,10 @@ h3 {
   padding: 0 20px;
 }
 
+.box {
+
+}
+
 .text-primary {
   color: #f7c08a;
 }
@@ -219,6 +223,7 @@ a {
 
 #contact-info {
   display: flex;
+  justify-content: center;
 }
 
 /* Footer */
